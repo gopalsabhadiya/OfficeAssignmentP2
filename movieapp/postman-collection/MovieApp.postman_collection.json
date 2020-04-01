@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "831b3224-6cd4-4517-812c-1b762f0a09ce",
+		"name": "MovieApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Add ratings",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/rest/customer/2/rate/4/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"customer",
+						"2",
+						"rate",
+						"4",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Highest rated movie",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/rest/highestratedmovie",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"highestratedmovie"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get customer with highest average rating",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/rest/customer/gethighestcutomerrating",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"rest",
+						"customer",
+						"gethighestcutomerrating"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
