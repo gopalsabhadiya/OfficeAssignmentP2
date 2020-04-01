@@ -11,7 +11,4 @@ public class Movie {
 
     private Integer movieId;
     private Double averageRating;
-
-    public Movie(Map.Entry<Integer, Double> key, Object value) {
-    }
 }
